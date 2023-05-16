@@ -1,0 +1,51 @@
+//,type,title,maker,thumbnail...
+#INFORMATION,2,SPADA(LIFT 221),minamo@17105,
+//typeは,,,,
+//0 7KEYS,,,,
+//1 5KEYS,,,,
+//2 14KEYS,,,,
+//3 10KEYS,,,,
+//4 9KEYS,,,,
+//5 MUSICSELECT,,,,
+//6 DECIDE,,,,
+//7 RESULT,,,,
+//8 KEYCONFIG,,,,
+//9 SKINSELECT,,,,
+//10 SOUNDSET,,,,
+//11 THEME,,,,
+
+//カスタマイズ情報
+//902 通常スコア 903 EXスコア
+#CUSTOMOPTION,スコア表示,902,通常,EXSCORE,,,,
+//904,OFF,905,ON
+#CUSTOMOPTION,DISPLAY JUDGE,904,OFF,ON,,,,
+//906,FLOATING,907,NORMAL
+#CUSTOMOPTION,HI-SPEED BAR,906,FLOATING,NORMAL,,,,
+//908 スコアグラフ位置 RIGHT 909 スコアグラフ位置 LEFT
+#CUSTOMOPTION,スコアグラフ位置,908,RIGHT,LEFT,,,,
+//910,ON,911,OFF
+#CUSTOMOPTION,サブタイトル,910,ON,OFF,
+//919 Keyboard 920 Controller
+#CUSTOMOPTION,INPUT,919,KEYBOARD,CONTROLLER,,,,
+//930 TIPS ON 931 TIPS OFF
+#CUSTOMOPTION,TIPS,930,ON,OFF,,,,
+#CUSTOMFILE,NOTES,.\LR2files\Theme\IIDX21 SPADA\Play\Notes\*.png,
+#CUSTOMFILE,BOM,.\LR2files\Theme\IIDX21 SPADA\Play\Bomb\*.png,
+#CUSTOMFILE,SCRATCH,.\LR2files\Theme\IIDX21 SPADA\Play\Scratch\*.png,
+#CUSTOMFILE,LANECOVER,.\LR2files\Theme\IIDX21 SPADA\Play\Lanecover\*.png,
+#CUSTOMFILE,JUDGE,.\LR2files\Theme\IIDX21 SPADA\Play\Judge\*.png,
+#CUSTOMFILE,KEY BEAM,.\LR2files\Theme\IIDX21 SPADA\Play\KeyBeam\*.png,
+#CUSTOMFILE,GLOW,.\LR2files\Theme\IIDX21 SPADA\Play\Glow\*.png,
+#CUSTOMFILE,GAUGE INDICATOR,.\LR2files\Theme\IIDX21 SPADA\Play\newgauge\*.png,
+#CUSTOMFILE,MINE NOTES,.\LR2files\Theme\IIDX21 SPADA\Play\notemine\*.png,
+#CUSTOMFILE,JUDGE LINE,.\LR2files\Theme\IIDX21 SPADA\Play\judgeline\*.png,
+#CUSTOMOPTION,FULLCOMBO,960,Default,IIDX RED,HAPPY SKY,DistorteD,GOLD,DJ TROOPERS,EMPRESS,SIRIUS,Resort Anthem,Lincle,tricoro,
+
+//INFORMATIONとCUSTOMIZEの終了時に入れてください。
+//必須ではありませんが、起動が少しばかり高速になります。
+#ENDOFHEADER,,,,,,,,
+
+
+#INCLUDE,LR2files\Theme\IIDX21 SPADA\Play\csv\PlayDP_IIDX21_lift.csv
+
+

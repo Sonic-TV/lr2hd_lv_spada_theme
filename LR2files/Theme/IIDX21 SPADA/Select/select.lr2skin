@@ -1,0 +1,49 @@
+//インフォメーション//////////////////////////////////////////////////////////////////////////
+#INFORMATION,5,IIDX21 SPADA,
+
+
+//カスタムオプション////////////////////////////////////////////////////////////////////////////
+#CUSTOMOPTION,PLAY SIDE,985,1P,2P,
+
+#CUSTOMOPTION,DJ Name Length,940,3 chars,4 chars,5 chars,>6 chars,,,,
+
+//カスタムパーツ////////////////////////////////////////////////////////////////////////////
+
+#CUSTOMOPTION,BACKGROUND,900,MOVIE,IMAGE,
+
+#CUSTOMFILE,Image BG,LR2files\WallPaper\HD\*.png,Default,
+
+#CUSTOMFILE,Movie BG,LR2files\Theme\IIDX21 SPADA\Select\Parts\bgv\*.mpg,Default,
+
+#CUSTOMOPTION,Show Long Note Icon,920,ON,OFF,,,,
+
+#CUSTOMOPTION,Font Type,935,Default,Old,,,,
+
+#CUSTOMOPTION,Subtitle,930,ON,OFF,,,,
+
+//#CUSTOMOPTION,詳細情報,950,NORMAL,SIMPLE,CS風,
+
+#CUSTOMOPTION,BANNER,922,OFF,ON,,,,
+
+#CUSTOMOPTION,CLOCK,925,OFF,ON,,,,
+
+#CUSTOMFILE,Stage Type,LR2files\Theme\IIDX21 SPADA\Select\Stage_Select\*.png,Default,
+
+#CUSTOMOPTION,Qpro,955,OFF,ON,,,,
+
+#CUSTOMFILE,Qpro Face,LR2files\Theme\IIDX21 SPADA\Select\Parts\qpro\face\*.png,Default,
+
+#CUSTOMFILE,Qpro Hair,LR2files\Theme\IIDX21 SPADA\Select\Parts\qpro\hair\*.png,Default,
+
+#CUSTOMFILE,Qpro Head,LR2files\Theme\IIDX21 SPADA\Select\Parts\qpro\head\*.png,Default,
+
+#CUSTOMFILE,Qpro Body,LR2files\Theme\IIDX21 SPADA\Select\Parts\qpro\body\*.png,Default,
+
+#CUSTOMFILE,Qpro Hand,LR2files\Theme\IIDX21 SPADA\Select\Parts\qpro\hand\*.png,Default,
+
+//////////
+#ENDOFHEADER,,,,,,,,
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//スキン本体
+#INCLUDE,LR2files\Theme\IIDX21 SPADA\Select\select_IIDX21.csv,
