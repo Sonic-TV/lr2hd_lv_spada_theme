@@ -50,6 +50,7 @@
 #IMAGE,LR2files\Theme\IIDX21 SPADA\Select\Parts\bgm_smork.png,,,,,,,,23,,,,,,,,,,,
 #IMAGE,LR2files\Theme\IIDX21 SPADA\Select\Parts\SPADA_2.png,,,,,,,,24,,,,,,,,,,,
 #IMAGE,LR2files\Theme\IIDX21 SPADA\Select\Parts\inazuma.png,,,,,,,,25,,,,,,,,,,,
+#IMAGE,LR2files\Theme\IIDX21 SPADA\Select\Parts\cursor.png,,,,,,,,26,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,
 //[フォント],,,,,,,,,,,,,,,,,,,,
 //日本語フォントなら8mbぐらいメモリを消費するので、無駄使いは止めましょう。,,,,,,,,,,,,,,,,,,,,
@@ -7188,10 +7189,10 @@
 ,,,,,,,,,,,,,,,,,,,,
 //マウスカーソル,,,,,,,,,,,,,,,,,,,,
 //SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,,,,,,,,,,
-#SRC_MOUSECURSOR,0,22,419,828,15,15,1,1,500,0,,,,,,,,,,
+#SRC_MOUSECURSOR,0,26,0,0,32,32,1,1,500,0,,,,,,,,,,
 //DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
-#DST_MOUSECURSOR,0,800,0,0,25,20,0,0,255,255,255,1,1,0,0,1000,0,0,0,0
-#DST_MOUSECURSOR,0,1000,0,0,25,20,0,255,255,255,255,1,1,0,0,,,,,
+#DST_MOUSECURSOR,0,800,0,0,32,32,0,0,255,255,255,1,1,0,0,1000,0,0,0,0
+#DST_MOUSECURSOR,0,1000,0,0,32,32,0,255,255,255,255,1,1,0,0,,,,,
 ,,,,,,,,,,,,,,,,,,,,
 ///////////////////////////////////////,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,
