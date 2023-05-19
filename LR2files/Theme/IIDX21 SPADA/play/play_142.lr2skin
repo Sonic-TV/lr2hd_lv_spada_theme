@@ -1,5 +1,5 @@
 //,type,title,maker,thumbnail...
-#INFORMATION,2,SPADA Lift2,minamo@17105,
+#INFORMATION,2,SPADA Lift2,minamo@17105+@Vad1m#1719,
 //typeÇÕ,,,,
 //0 7KEYS,,,,
 //1 5KEYS,,,,
@@ -41,6 +41,7 @@
 #CUSTOMFILE,GAUGE INDICATOR,.\LR2files\Theme\IIDX21 SPADA\Play\newgauge\*.png,
 #CUSTOMFILE,MINE NOTES,.\LR2files\Theme\IIDX21 SPADA\Play\notemine\*.png,
 #CUSTOMFILE,JUDGE LINE,.\LR2files\Theme\IIDX21 SPADA\Play\judgeline\*.png,
+#CUSTOMFILE,KEY FLASH,.\LR2files\Theme\IIDX21 SPADA\Play\keyflash\*.png,
 #CUSTOMOPTION,FULLCOMBO,960,Default,IIDX RED,HAPPY SKY,DistorteD,GOLD,DJ TROOPERS,EMPRESS,SIRIUS,Resort Anthem,Lincle,tricoro,
 
 //INFORMATIONÇ∆CUSTOMIZEÇÃèIóπéûÇ…ì¸ÇÍÇƒÇ≠ÇæÇ≥Ç¢ÅB
