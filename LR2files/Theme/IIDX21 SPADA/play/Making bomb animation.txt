@@ -1,0 +1,7 @@
+How to make bomb animation in SPADA theme
+
+This sprite contains:
+
+Resolution: 12000x360
+Total Frames: 30
+Frame size: 400x360 
