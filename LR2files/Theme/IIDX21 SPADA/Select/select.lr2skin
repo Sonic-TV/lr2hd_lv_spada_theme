@@ -11,7 +11,7 @@
 
 #CUSTOMOPTION,BACKGROUND,900,MOVIE,IMAGE,
 
-#CUSTOMFILE,Image BG,LR2files\WallPaper\HD\*.png,Default,
+#CUSTOMFILE,Image BG,LR2files\WallPaper\HD\*,Default,
 
 #CUSTOMFILE,Movie BG,LR2files\Theme\IIDX21 SPADA\Select\Parts\bgv\*.mpg,Default,
 
