@@ -13,7 +13,7 @@
 
 #CUSTOMFILE,Image BG,LR2files\WallPaper\HD\*,Default,
 
-#CUSTOMFILE,Movie BG,LR2files\Theme\IIDX21 SPADA\Select\Parts\bgv\*.mpg,Default,
+#CUSTOMFILE,Movie BG,LR2files\Theme\IIDX21 SPADA\Select\Parts\bgv\*,Default,
 
 #CUSTOMOPTION,Show Long Note Icon,920,ON,OFF,,,,
 
