@@ -1445,7 +1445,7 @@
 #SRC_IMAGE,0,22,0,250,220,50,1,1,0,0,0,0,0,,,,,,,,
 #ELSE,,,,,,,,,,,,,,,,,,,,,
 //SRC’è‹`,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,,
-#SRC_IMAGE,0,100,0,0,0,0,1,1,0,0,0,0,0,,,,,,,,
+#SRC_IMAGE,0,22,0,0,0,0,1,1,0,0,0,0,0,,,,,,,,
 #ENDIF,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,
 //DST’è‹`,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3,

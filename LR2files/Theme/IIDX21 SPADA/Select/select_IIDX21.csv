@@ -6946,7 +6946,7 @@
 #SRC_BUTTON,0,1,929,1078,54,27,2,1,0,0,25,1,5,1,,,,,,
 //DST’è‹`,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
 #DST_BUTTON,0,0,1184,934,54,40,2,255,255,255,255,2,0,0,0,200,25,0,0,0
-#DST_BUTTON,0,200,1184,406,54,40,2,255,255,255,255,2,0,0,0,,,,,
+#DST_BUTTON,0,200,1184,604,54,40,2,255,255,255,255,2,0,0,0,,,,,
 ,,,,,,,,,,,,,,,,,,,,
 //FX#2 p1,//slide24 FX2 P1,,,,,,,,,,,,,,,,,,,
 //SRC’è‹`,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,muki,range,type,,,,,,,
