@@ -1,0 +1,29 @@
+//インフォメーション//////////////////////////////////////////////////////////////////////////,,,,
+//,type(select = 5),title,maker,thumbnail
+#INFORMATION,5,W-mix select + ARENA patch,Wisp,
+,,,,
+//カスタムオプション////////////////////////////////////////////////////////////////////////////,,,,
+,,,,
+
+
+#CUSTOMOPTION,back brightness,975,100%,75%,50%,
+#CUSTOMFILE,Wallpaper,LR2files\Theme\WMIX_HD\select\wallpaper\*.png,Default
+#CUSTOMOPTION,Wallpaper transparency,970,100%,75%,50%,25%,0%
+#CUSTOMFILE,Movie,LR2files\Theme\WMIX_HD\select\movie\*.mpg,off
+#CUSTOMFILE,Shutter,LR2files\Theme\WMIX_HD\select\shutter\*.png,Default
+#CUSTOMOPTION,Clock,930,OFF,ON,
+#CUSTOMOPTION,BEAM,935,ON,OFF,
+#CUSTOMOPTION,banner,938,ON,OFF,
+,,,,
+
+//必須ではありませんが、起動が少しばかり高速になります。,,,,
+#ENDOFHEADER,,,,
+,,,,
+//////////////////////////////////////////////////////////////////////////////////////////////////////,,,,
+,,,,
+//スキン本体,,,,
+#INCLUDE,LR2files\Theme\WMIX_HD\select\select.csv,,
+
+#IF,9999,
+#INCLUDE,LR2files\Theme\WMIX_HD\patch_lan\select.csv,,
+#ENDIF

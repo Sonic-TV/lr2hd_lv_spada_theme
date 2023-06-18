@@ -1,0 +1,63 @@
+//インフォメーション//////////////////////////////////////////////////////////////////////////,,,,
+//,type(select = 5),title,maker,thumbnail
+#INFORMATION,7,W-mix RESULT HD + ARENA patch,Wisp,,
+,,,,
+//カスタムオプション////////////////////////////////////////////////////////////////////////////,,,,
+,,,
+
+#CUSTOMOPTION,side,900,Left,Right,,,
+#CUSTOMOPTION,clear type playskin link,910,LINK ON,LINK OFF,
+#CUSTOMOPTION,chart COLOR link(W-MIX),912,LINK OFF,LINK ON,
+#CUSTOMOPTION, CLOSE shutter,930,WMIX-SELECT LINK,EC-SE LINK,OFF,SPADA
+#CUSTOMFILE,Shutter(W-MIX),LR2files\Theme\WMIX_HD\select\shutter\*.png,Default,
+#CUSTOMFILE,Shutter(EC-SE),LR2files\Theme\EndlessCirculation\SE-Select\FRAME\*,Default,,,,,
+#CUSTOMOPTION,battle skin,920,OFF,ON
+#CUSTOMOPTION,Song data,928,ON,OFF
+#CUSTOMFILE,clear image,LR2files\Theme\WMIX_HD\result\IMAGE\clear\*.png,,,,,,
+#CUSTOMFILE,failed image,LR2files\Theme\WMIX_HD\result\IMAGE\fail\*.png,,,,
+#CUSTOMFILE,A clear,LR2files\Theme\WMIX_HD\result\IMAGE\A\*.png,,,,,,
+#CUSTOMFILE,AA clear,LR2files\Theme\WMIX_HD\result\IMAGE\AA\*.png,,,,,,
+#CUSTOMFILE,AAA clear,LR2files\Theme\WMIX_HD\result\IMAGE\AAA\*.png,,,,,,
+#CUSTOMFILE,DJ LEVEL,LR2files\Theme\WMIX_HD\result\system\djlevel\*.png,perfect dark,,,,,
+#CUSTOMFILE,NUMBER COLOR,LR2files\Theme\WMIX_HD\result\system\number\*.png,silver,,,,,
+#CUSTOMFILE,chart COLOR(link off),LR2files\Theme\WMIX_HD\result\system\gauge\*.png,default,,,,
+#CUSTOMOPTION,FAST SLOW VIEW,925,OFF,ON
+#CUSTOMOPTION,COMBO BREAK VIEW,937,OFF,ON
+#CUSTOMOPTION,EX LEVEL VIEW,935,OFF,ON
+,,,,
+
+//カスタムファイル//////////////////////////////////////////////////////////////////////////////////,,,,
+
+//INFORMATIONとCUSTOMIZEの終了時に入れてください。,,,,
+//必須ではありませんが、起動が少しばかり高速になります。,,,,
+#ENDOFHEADER,,,,
+,,,,
+//////////////////////////////////////////////////////////////////////////////////////////////////////,,,,
+//スキン本体,,,,
+,,,,
+
+#IF,9999,1000,
+#SETOPTION,928,0
+#SETOPTION,929,1
+#ENDIF,
+
+#IF,900,921,11
+#INCLUDE,LR2files\Theme\WMIX_HD\result\result_L_B.csv,,,
+#ELSEIF,901,921,11
+#INCLUDE,LR2files\Theme\WMIX_HD\result\result_R_B.csv,,,
+#ELSEIF,901,921,623
+#INCLUDE,LR2files\Theme\WMIX_HD\result\result_R_B.csv,,,
+#ELSEIF,900,921,623
+#INCLUDE,LR2files\Theme\WMIX_HD\result\result_L_B.csv,,,
+#ELSEIF,900,
+#INCLUDE,LR2files\Theme\WMIX_HD\result\result_L.csv,,,
+#ELSEIF,901,
+#INCLUDE,LR2files\Theme\WMIX_HD\result\result_R.csv,,,
+
+#ENDIF,,,
+
+#IF,9999,1000,900,
+#INCLUDE,LR2files\Theme\WMIX_HD\patch_lan\result_L.csv,,,
+#ELSEIF,9999,1000,901,
+#INCLUDE,LR2files\Theme\WMIX_HD\patch_lan\result_R.csv,,,
+#ENDIF,

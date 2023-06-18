@@ -1,0 +1,121 @@
+#ENDOFHEADER,,,,,,,,,,,,,,,,,,,,
+
+// Frame
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
+#SRC_IMAGE,0,0,1137,1726,417,258,1,1,0,17,0,0,0,,,,,,,
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,794,409,417,258,0,0,255,255,255,1,0,0,0,200,240,1000,0,0,
+#DST_IMAGE,0,200,794,409,417,258,0,255,255,255,255,1,0,0,0,,,,,
+
+// Title Line
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
+#SRC_IMAGE,0,0,1137,1983,417,40,1,1,0,0,0,0,0,,,,,,,
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,794,409,417,40,0,0,255,255,255,1,0,0,0,200,240,1000,0,0,
+#DST_IMAGE,0,200,794,409,417,40,0,255,255,255,255,1,0,0,0,,,,,
+
+////////////////////////////////////////////////////////////////////
+
+// Status
+#SRC_TEXT,0,3,260,1,0,,,,,,,,,,,,,,,
+#DST_TEXT,0,200,999,419,330,24,2,0,255,255,255,1,1,0,0,300,240,1000,0,0,
+#DST_TEXT,0,300,999,419,330,24,2,255,255,255,255,1,1,0,0,,,,,
+
+// Player READY
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
+#SRC_IMAGE,0,0,1345,875,24,24,1,1,0,0,0,0,0,,,,,,,
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,825,454,24,24,0,255,255,255,255,1,0,0,0,0,0,1000,1400,0,
+
+// Player Name
+#SRC_TEXT,0,3,2,0,0,,,,,,,,,,,,,,,
+#DST_TEXT,0,200,850,454,330,24,2,0,255,255,255,1,1,0,0,300,240,1000,0,0,
+#DST_TEXT,0,300,850,454,330,24,2,255,255,255,255,1,1,0,0,,,,,
+
+// P1 READY
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
+#SRC_IMAGE,0,0,1345,875,24,24,1,1,0,0,0,0,0,,,,,,,
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,825,479,24,24,0,255,255,255,255,1,0,0,0,0,0,1000,1401,0,
+
+// P1 Name
+#SRC_TEXT,0,3,261,0,0,,,,,,,,,,,,,,,
+#DST_TEXT,0,200,850,479,330,24,2,0,255,255,255,1,1,0,0,300,240,1000,1001,0,
+#DST_TEXT,0,300,850,479,330,24,2,255,255,255,255,1,1,0,0,,,,,
+
+// P2 READY
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
+#SRC_IMAGE,0,0,1345,875,24,24,1,1,0,0,0,0,0,,,,,,,
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,825,504,24,24,0,255,255,255,255,1,0,0,0,0,0,1000,1402,0,
+
+// P2 Name
+#SRC_TEXT,0,3,262,0,0,,,,,,,,,,,,,,,
+#DST_TEXT,0,200,850,504,330,24,2,0,255,255,255,1,1,0,0,300,240,1000,1002,0,
+#DST_TEXT,0,300,850,504,330,24,2,255,255,255,255,1,1,0,0,,,,,
+
+// P6 READY
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
+#SRC_IMAGE,0,0,1345,875,24,24,1,1,0,0,0,0,0,,,,,,,
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,825,529,24,24,0,255,255,255,255,1,0,0,0,0,0,1000,1403,0,
+
+// P3 Name
+#SRC_TEXT,0,3,263,0,0,,,,,,,,,,,,,,,
+#DST_TEXT,0,200,850,529,330,24,2,0,255,255,255,1,1,0,0,300,240,1000,1003,0,
+#DST_TEXT,0,300,850,529,330,24,2,255,255,255,255,1,1,0,0,,,,,
+
+// P4 READY
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
+#SRC_IMAGE,0,0,1345,875,24,24,1,1,0,0,0,0,0,,,,,,,
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,825,554,24,24,0,255,255,255,255,1,0,0,0,0,0,1000,1404,0,
+
+// P4 Name
+#SRC_TEXT,0,3,264,0,0,,,,,,,,,,,,,,,
+#DST_TEXT,0,200,850,554,330,24,2,0,255,255,255,1,1,0,0,300,240,1000,1004,0,
+#DST_TEXT,0,300,850,554,330,24,2,255,255,255,255,1,1,0,0,,,,,
+
+// P5 READY
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
+#SRC_IMAGE,0,0,1345,875,24,24,1,1,0,0,0,0,0,,,,,,,
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,825,579,24,24,0,255,255,255,255,1,0,0,0,0,0,1000,1405,0,
+
+// P5 Name
+#SRC_TEXT,0,3,265,0,0,,,,,,,,,,,,,,,
+#DST_TEXT,0,200,850,579,330,24,2,0,255,255,255,1,1,0,0,300,240,1000,1005,0,
+#DST_TEXT,0,300,850,579,330,24,2,255,255,255,255,1,1,0,0,,,,,
+
+// P6 READY
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
+#SRC_IMAGE,0,0,1345,875,24,24,1,1,0,0,0,0,0,,,,,,,
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,825,604,24,24,0,255,255,255,255,1,0,0,0,0,0,1000,1406,0,
+
+// P6 Name
+#SRC_TEXT,0,3,266,0,0,,,,,,,,,,,,,,,
+#DST_TEXT,0,200,850,604,330,24,2,0,255,255,255,1,1,0,0,300,240,1000,1006,0,
+#DST_TEXT,0,300,850,604,330,24,2,255,255,255,255,1,1,0,0,,,,,
+
+// P7 READY
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
+#SRC_IMAGE,0,0,1345,875,24,24,1,1,0,0,0,0,0,,,,,,,
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,825,629,24,24,0,255,255,255,255,1,0,0,0,0,0,1000,1407,0,
+
+// P7 Name
+#SRC_TEXT,0,3,267,0,0,,,,,,,,,,,,,,,
+#DST_TEXT,0,200,850,629,330,24,2,0,255,255,255,1,1,0,0,300,240,1000,1007,0,
+#DST_TEXT,0,300,850,629,330,24,2,255,255,255,255,1,1,0,0,,,,,
+
+// P8 READY
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
+#SRC_IMAGE,0,0,1345,875,24,24,1,1,0,0,0,0,0,,,,,,,
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,825,654,24,24,0,255,255,255,255,1,0,0,0,0,0,1000,1408,0,
+
+// P8 Name
+#SRC_TEXT,0,3,268,0,0,,,,,,,,,,,,,,,
+#DST_TEXT,0,200,850,654,330,24,2,0,255,255,255,1,1,0,0,300,240,1000,1008,0,
+#DST_TEXT,0,300,850,654,330,24,2,255,255,255,255,1,1,0,0,,,,,

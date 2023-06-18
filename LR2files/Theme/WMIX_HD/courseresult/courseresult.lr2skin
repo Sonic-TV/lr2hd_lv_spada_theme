@@ -1,0 +1,44 @@
+//インフォメーション//////////////////////////////////////////////////////////////////////////
+//,type(result:15),title,maker,thumbnail
+#INFORMATION,15,W-mix COURSE RESULT HD,Wisp,,
+
+
+
+
+
+//カスタムオプション////////////////////////////////////////////////////////////////////////////
+
+#CUSTOMOPTION,side,900,Left,Right,,,
+#CUSTOMOPTION,type shutter,910,Normal,Spada,
+
+#CUSTOMFILE,clear image,LR2files\Theme\WMIX_HD\courseresult\bg\clear\*.png,Default,,,,,
+#CUSTOMFILE,failed image,LR2files\Theme\WMIX_HD\courseresult\bg\fail\*.png,Default,,,
+#CUSTOMFILE,DJ LEVEL,LR2files\Theme\WMIX_HD\result\system\djlevel\*.png,perfect dark,,,,,
+#CUSTOMFILE,NUMBER COLOR,LR2files\Theme\WMIX_HD\result\system\number\*.png,silver,,,,,
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#ENDOFHEADER,
+
+
+//リザルトサイド強制変更(LEFT)
+#IF,900,
+#DISABLEFLIP,
+#ENDIF,
+	
+//リザルトサイド強制変更(RIGHT)
+#IF,901,
+#FLIPRESULT,
+#ENDIF,
+
+
+
+
+,,,,
+
+
+//スキン分岐////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+#INCLUDE,LR2files\Theme\WMIX_HD\courseresult\courseresult.csv,
