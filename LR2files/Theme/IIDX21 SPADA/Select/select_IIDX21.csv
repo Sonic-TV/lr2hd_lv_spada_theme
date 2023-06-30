@@ -7175,14 +7175,14 @@
 //DST_TEXT形式で最初の一行だけ指定して下さい。後は無限に下に並べます。,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,
 //SRC定義,(NULL),font,(NULL),(NULL),kankaku,(NULL),,,,,,,,,,,,,,
-#SRC_README,0,2,0,0,18,0,,,,,,,,,,,,,,
+#SRC_README,0,4,0,0,20,0,,,,,,,,,,,,,,
 //DST定義,(NULL),time,x,y,w,size,acc,a,r,g,b,blend,filter,(NULL),(NULL),loop,timer,(NULL),(NULL),(NULL)
 #DST_README,0,0,10,10,99999,24,0,0,255,255,255,1,0,0,0,500,15,0,0,0
 #DST_README,0,500,10,10,99999,24,0,255,255,255,255,1,0,0,0,,,,,
 ,,,,,,,,,,,,,,,,,,,,
 //本文消える,,,,,,,,,,,,,,,,,,,,
 //SRC定義,(NULL),font,(NULL),(NULL),kankaku,(NULL),,,,,,,,,,,,,,
-#SRC_README,1,2,0,0,18,0,,,,,,,,,,,,,,
+#SRC_README,1,4,0,0,20,0,,,,,,,,,,,,,,
 //DST定義,(NULL),time,x,y,w,size,acc,a,r,g,b,blend,filter,(NULL),(NULL),loop,timer,(NULL),(NULL),(NULL)
 #DST_README,1,0,10,10,99999,24,0,255,255,255,255,1,0,0,0,500,16,0,0,0
 #DST_README,1,500,10,10,99999,24,0,0,255,255,255,1,0,0,0,,,,,

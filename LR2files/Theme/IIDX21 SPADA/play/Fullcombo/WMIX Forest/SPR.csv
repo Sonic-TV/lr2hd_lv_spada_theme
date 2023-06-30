@@ -1,4 +1,13 @@
 #IMAGE,\LR2files\Theme\IIDX21 SPADA\Play\Fullcombo\WMIX Forest\forest.png
+#IMAGE,.dummy,
+#IMAGE,.dummy,
+#IMAGE,.dummy,
+#IMAGE,.dummy,
+#IMAGE,.dummy,
+#IMAGE,.dummy,
+#IMAGE,.dummy,
+#IMAGE,.dummy,
+#IMAGE,.dummy,
 ,,,,,,,,,,,,,,,,,,,,,
 //メイン1,,,,,,,,,,,,,,,,,,,,,
 //SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,,

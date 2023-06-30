@@ -1,4 +1,13 @@
 #IMAGE,\LR2files\Theme\IIDX21 SPADA\Play\Fullcombo\Default\Default.png
+#IMAGE,.dummy,
+#IMAGE,.dummy,
+#IMAGE,.dummy,
+#IMAGE,.dummy,
+#IMAGE,.dummy,
+#IMAGE,.dummy,
+#IMAGE,.dummy,
+#IMAGE,.dummy,
+#IMAGE,.dummy,
 //上昇する光1,,,,,,,,,,,,,,,,,,,,
 //SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
 #SRC_IMAGE,0,50,14,0,2,347,1,1,0,0,0,0,0,,,,,,,
