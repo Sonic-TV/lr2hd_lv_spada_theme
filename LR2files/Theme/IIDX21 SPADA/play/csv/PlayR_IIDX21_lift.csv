@@ -63,13 +63,27 @@
 #IMAGE,.\LR2files\Theme\IIDX21 SPADA\Play\Frame\ring1p.png,,,,,,17,,,,,,,,,,,,,,
 #IMAGE,.\LR2files\Theme\IIDX21 SPADA\Play\Effector\effector.png,,,,,,18,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,
-#IMAGE,.dummy,,,,,,,,,,,,,,,,,19
+#IMAGE,.\LR2files\Theme\IIDX21 SPADA\Play\parts\Difficuty_spada.png,,,,,,,,,,,,,,,,,19
 ,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,
 #IMAGE,.\LR2files\Theme\IIDX21 SPADA\Play\KeyBeam\*.png,,,,,,20,,,,,,,,,,,,,,
 #IMAGE,.\LR2files\Theme\IIDX21 SPADA\Play\Graph\*\graph.png,,,,,,21,,,,,,,,,,,,,,
 #IMAGE,.\LR2files\Theme\IIDX21 SPADA\Play\parts\SPADA_STAGE.png,,,,,,22,,,,,,,,,,,,,,
-#IMAGE,.\LR2files\Theme\IIDX21 SPADA\Play\parts\Difficuty_spada.png,,,,,,23,,,,,,,,,,,,,,
+#IF,100,,,,,,,,,,
+#IMAGE,.\LR2files\Theme\IIDX21 SPADA\play\ClearData\NOPLAY.png,,,,,,,,,,//23
+#ELSEIF,101,,,,,,,,,,
+#IMAGE,.\LR2files\Theme\IIDX21 SPADA\play\ClearData\FAILED.png,,,,,,,,,,//23
+#ELSEIF,102,,,,,,,,,,
+#IMAGE,.\LR2files\Theme\IIDX21 SPADA\play\ClearData\EASYCLEAR.png,,,,,,,,,,//23
+#ELSEIF,103,,,,,,,,,,
+#IMAGE,.\LR2files\Theme\IIDX21 SPADA\play\ClearData\CLEAR.png,,,,,,,,,,//23
+#ELSEIF,104,,,,,,,,,,
+#IMAGE,.\LR2files\Theme\IIDX21 SPADA\play\ClearData\HARDCLEAR.png,,,,,,,,,,//23
+#ELSEIF,105,,,,,,,,,,
+#IMAGE,.\LR2files\Theme\IIDX21 SPADA\play\ClearData\FULLCOMBO.png,,,,,,,,,,//23
+#ELSE,,,,,,,,,,,
+#IMAGE,.\LR2files\Theme\IIDX21 SPADA\play\ClearData\dummy.png,,,,,,,,,,//23
+#ENDIF,,,,,,,,,,,
 #IMAGE,.\LR2files\Theme\IIDX21 SPADA\Play\Glow\*.png,,,,,,24,,,,,,,,,,,,,,
 #IMAGE,.\LR2files\Theme\IIDX21 SPADA\Play\newgauge\*.png,,,,,,25,,,,,,,,,,,,,,
 #IMAGE,.\LR2files\Theme\IIDX21 SPADA\Play\notemine\*.png,,,,,,26,,,,,,,,,,,,,,

@@ -1,0 +1,6 @@
+New judge for spada skin
+
+Number size: 37x74
+Great size(including PGreat): 170x74
+Good/Poor size: 142x74
+Bad size: 113x74
