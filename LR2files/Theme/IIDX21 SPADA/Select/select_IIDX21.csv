@@ -1018,6 +1018,11 @@
 #SRC_IMAGE,0,0,842,968,40,24,1,1,0,0,0,0,0,,,,,,,
 //DST’è‹`,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
 #DST_IMAGE,0,280,705,347,40,24,0,255,255,255,255,0,0,0,0,280,11,5,173,620
+//Random pattern,,,,,,,,,,,,,,,,,,,,
+//SRC’è‹`,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
+#SRC_IMAGE,0,24,1300,551,40,24,1,1,0,0,0,0,0,,,,,,,
+//DST’è‹`,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,280,705,371,40,24,0,255,255,255,255,0,0,0,0,280,11,5,179,620
 #ELSE,,,,,,,,,,,,,,,,,,,,
 #ENDIF,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,
