@@ -51,6 +51,7 @@
 #IMAGE,LR2files\Theme\IIDX21 SPADA\Select\Parts\SPADA_2.png,,,,,,,,24,,,,,,,,,,,
 #IMAGE,LR2files\Theme\IIDX21 SPADA\Select\Parts\inazuma.png,,,,,,,,25,,,,,,,,,,,
 #IMAGE,LR2files\Theme\IIDX21 SPADA\Select\Parts\cursor.png,,,,,,,,26,,,,,,,,,,,
+#IMAGE,LR2files\Theme\IIDX21 SPADA\Select\Parts\Rainbow.png,,,,,,,,27,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,
 //[フォント],,,,,,,,,,,,,,,,,,,,
 //日本語フォントなら8mbぐらいメモリを消費するので、無駄使いは止めましょう。,,,,,,,,,,,,,,,,,,,,
@@ -59,13 +60,10 @@
 //フォントは右に候補をいくつでも追加できます。,,,,,,,,,,,,,,,,,,,,
 //パスの次を1とすると、画像フォント使用不可設定が無効になり、かならず使用されます,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,
-#IF,935,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
 #LR2FONT,LR2files\Theme\IIDX21 SPADA\Font\bar\font.lr2font,,,,,,,,0,,,,,,,,,,,
-#LR2FONT,LR2files\Theme\IIDX21 SPADA\Font\title\font.lr2font,,,,,,,,1,,,,,,,,,,,
-#ELSEIF,936,,,,,,,,,,,,,,,,,,,
-#LR2FONT,LR2files\Theme\IIDX21 SPADA\Font\oldbar\font.lr2font,,,,,,,,0,,,,,,,,,,,
-#LR2FONT,LR2files\Theme\IIDX21 SPADA\Font\oldtitle\font.lr2font,,,,,,,,1,,,,,,,,,,,
-#ENDIF,,,,,,,,,,,,,,,,,,,,
+#LR2FONT,LR2files\Theme\IIDX21 SPADA\EXfont\Title\*\font.lr2font,,,,,,,,1,,,,,,,,,,,
+
 ,,,,,,,,,,,,,,,,,,,,
 #LR2FONT,LR2files\Theme\IIDX21 SPADA\Font\Genre\font.lr2font,,,,,,,,2,,,,,,,,,,,
 #LR2FONT,LR2files\Theme\IIDX21 SPADA\Font\folder\font.lr2font,,,,,,,,3,,,,,,,,,,,
@@ -1060,7 +1058,12 @@
 #SRC_BAR_LAMP,5,0,1508,49,99,50,3,1,100,0,0,0,0,,,,,,,
 //DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
 #DST_BAR_LAMP,5,0,-5,-5,32,50,0,200,255,255,255,2,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,,,,,,,,,
+//,,,,,,,,,,,,,,,,,,,,
+////EASYクリア,,,,,,,,,,,,,,,,,,,,
+////SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
+//#SRC_BAR_LAMP,7,0,1640,49,66,50,2,1,60,0,0,0,0,,,,,,,
+////DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+//#DST_BAR_LAMP,7,0,-5,-5,32,50,0,255,255,255,255,2,0,0,0,0,0,0,0,0
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////,,,,,,,,,,,,,,,,,,,,
 //自分曲バーランプ,,,,,,,,,,,,,,,,,,,,
 //FAILED,,,,,,,,,,,,,,,,,,,,
@@ -1095,7 +1098,12 @@
 #SRC_BAR_MY_LAMP,5,0,1508,100,99,31,3,1,100,0,0,0,0,,,,,,,
 //DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
 #DST_BAR_MY_LAMP,5,0,-5,-5,32,31,0,200,255,255,255,2,0,0,0,0,0,0,0,0
-,,,,,,,,,,,,,,,,,,,,
+//,,,,,,,,,,,,,,,,,,,,
+////EASYクリア,,,,,,,,,,,,,,,,,,,,
+////SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,op1,op2,op3,,,,,,,
+//#SRC_BAR_MY_LAMP,7,0,1640,49,66,50,2,1,60,0,0,0,0,,,,,,,
+////DST定義,index,time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+//#DST_BAR_MY_LAMP,7,0,-5,-5,32,50,0,255,255,255,255,2,0,0,0,0,0,0,0,0
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////,,,,,,,,,,,,,,,,,,,,
 //ライバル曲バーランプ,,,,,,,,,,,,,,,,,,,,
 //FAILED,,,,,,,,,,,,,,,,,,,,
@@ -2344,7 +2352,7 @@
 ,,,,,,,,,,,,,,,,,,,,
 //バーグラフ FC AAA,,,,,,,,,,,,,,,,,,,,
 //SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer,type,muki,op3,,,,,,,
-#SRC_BARGRAPH,0,22,433,1448,378,16,1,1,0,0,47,0,0,,,,,,,
+#SRC_BARGRAPH,0,27,0,0,635,256,1,256,10000,0,47,0,0,,,,,,,
 //DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
 #DST_BARGRAPH,0,766,54,599,0,16,2,255,255,255,255,2,0,0,0,866,0,105,5,110
 #DST_BARGRAPH,0,866,54,599,378,16,2,255,255,255,255,2,0,0,0,,,,,

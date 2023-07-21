@@ -17,7 +17,7 @@
 
 #CUSTOMOPTION,Show Long Note Icon,920,ON,OFF,,,,
 
-#CUSTOMOPTION,Font Type,935,Default,Old,,,,
+#CUSTOMFILE,Title Font,LR2files\Theme\IIDX21 SPADA\EXfont\Title\*,title,
 
 #CUSTOMOPTION,Subtitle,930,ON,OFF,,,,
 
