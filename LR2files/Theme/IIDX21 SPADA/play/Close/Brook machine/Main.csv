@@ -1,0 +1,30 @@
+#IMAGE,.\LR2files\Theme\IIDX21 SPADA\play\Close\*\Machine.png,
+//Up shutter
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,60,0,0,1920,1080,1,1,0,3
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,0,-440,1280,720,0,255,255,255,255,1,0,0,0,650,3,0,0,0
+#DST_IMAGE,0,650,0,0,1280,720,0,255,255,255,255,1,0,0,0
+//Down shutter
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,60,0,1080,1920,1080,1,1,0,3
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,0,440,1280,720,0,255,255,255,255,1,0,0,0,650,3,0,0,0
+#DST_IMAGE,0,650,0,0,1280,720,0,255,255,255,255,1,0,0,0
+//Text
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,60,1920,0,1920,1080,1,1,0,3
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,650,0,0,1280,720,0,255,255,255,255,1,0,0,0,650,3,0,0,0
+//Flash
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,60,1920,1080,1920,1080,1,1,0,3
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,650,0,0,1280,720,0,255,255,255,255,2,0,0,0,-1,3,0,0,0
+#DST_IMAGE,0,1650,0,0,1280,720,0,0,255,255,255,2,0,0,0
+//Flash
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,60,1920,1080,1920,1080,1,1,0,3
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,650,0,0,1280,720,0,255,255,255,255,2,0,0,0,-1,3,0,0,0
+#DST_IMAGE,0,1650,0,0,1280,720,0,0,255,255,255,2,0,0,0

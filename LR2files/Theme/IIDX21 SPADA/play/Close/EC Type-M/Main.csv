@@ -1,0 +1,10 @@
+#IMAGE,.\LR2files\Theme\IIDX21 SPADA\play\Close\EC Type-M\close.png,
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,60,0,0,6400,7920,5,11,2800,3,
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,0,0,0,1280,720,0,255,255,255,255,1,0,0,0,-1,3,0,0,0
+#DST_IMAGE,0,2800,0,0,1280,720,0,255,255,255,255,0,0,0,0
+//SRC定義,(NULL),gr,x,y,w,h,div_x,div_y,cycle,timer
+#SRC_IMAGE,0,110,0,0,1,1,1,1,0,3,
+//DST定義,(NULL),time,x,y,w,h,acc,a,r,g,b,blend,filter,angle,center,loop,timer,op1,op2,op3
+#DST_IMAGE,0,2800,0,0,1280,720,0,255,255,255,255,1,0,0,0,2800,3,0,0,0
