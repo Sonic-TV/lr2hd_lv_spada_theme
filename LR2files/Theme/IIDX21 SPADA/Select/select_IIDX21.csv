@@ -33,7 +33,7 @@
 #IMAGE,dummy,,,,,,,//9,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,
 #IMAGE,LR2files\Theme\IIDX21 SPADA\Select\Parts\animation.png,,,,,,,,10,,,,,,,,,,,
-#IMAGE,LR2files\Theme\IIDX21 SPADA\Select\Parts\decide.mpg,,,,,,,,11,,,,,,,,,,,
+#IMAGE,dummy,,,,,,,,11,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,
 #IMAGE,dummy,,,,,,,//12,,,,,,,,,,,,
 #IMAGE,dummy,,,,,,,//13,,,,,,,,,,,,
@@ -61,7 +61,7 @@
 //パスの次を1とすると、画像フォント使用不可設定が無効になり、かならず使用されます,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,
-#LR2FONT,LR2files\Theme\IIDX21 SPADA\Font\bar\font.lr2font,,,,,,,,0,,,,,,,,,,,
+#LR2FONT,LR2files\Theme\IIDX21 SPADA\EXfont\Bar\*\font.lr2font,,,,,,,,0,,,,,,,,,,,
 #LR2FONT,LR2files\Theme\IIDX21 SPADA\EXfont\Title\*\font.lr2font,,,,,,,,1,,,,,,,,,,,
 
 ,,,,,,,,,,,,,,,,,,,,
@@ -846,6 +846,19 @@
 //曲バーのタイトルです。,,,,,,,,,,,,,,,,,,,,
 //バーのxy座標からの相対位置を指定して下さい。,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,
+#IF,958,
+//SRC定義,(NULL),font,st,align,,,,,,,,,,,,,,,,
+#SRC_BAR_TITLE,0,0,0,0,,,,,,,,,,,,,,,,
+//DST定義,(NULL),time,x,y,w,size,acc,a,r,g,b,blend,filter,(NULL),(NULL),loop,timer,(NULL),(NULL),(NULL)
+#DST_BAR_TITLE,0,0,85,0,10000,40,0,100,255,255,255,1,1,0,0,166,0,1,0,0
+#DST_BAR_TITLE,0,166,85,0,10000,40,0,255,255,255,255,1,1,0,0,,,,,
+,,,,,,,,,,,,,,,,,,,,
+//SRC定義,(NULL),font,st,align,,,,,,,,,,,,,,,,
+#SRC_BAR_TITLE,1,0,0,0,,,,,,,,,,,,,,,,
+//DST定義,(NULL),time,x,y,w,size,acc,a,r,g,b,blend,filter,(NULL),(NULL),loop,timer,(NULL),(NULL),(NULL)
+#DST_BAR_TITLE,1,0,85,0,10000,40,0,100,200,200,0,1,1,0,0,166,0,1,0,0
+#DST_BAR_TITLE,1,166,85,0,10000,40,0,255,255,187,81,1,1,0,0,,,,,
+#ELSE,
 //SRC定義,(NULL),font,st,align,,,,,,,,,,,,,,,,
 #SRC_BAR_TITLE,0,0,0,0,,,,,,,,,,,,,,,,
 //DST定義,(NULL),time,x,y,w,size,acc,a,r,g,b,blend,filter,(NULL),(NULL),loop,timer,(NULL),(NULL),(NULL)
@@ -857,6 +870,7 @@
 //DST定義,(NULL),time,x,y,w,size,acc,a,r,g,b,blend,filter,(NULL),(NULL),loop,timer,(NULL),(NULL),(NULL)
 #DST_BAR_TITLE,1,0,0,0,10000,40,0,100,200,200,0,1,1,0,0,166,0,1,0,0
 #DST_BAR_TITLE,1,166,0,0,10000,40,0,255,255,187,81,1,1,0,0,,,,,
+#ENDIF,
 ,,,,,,,,,,,,,,,,,,,,
 //曲バーの勝敗表示,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,

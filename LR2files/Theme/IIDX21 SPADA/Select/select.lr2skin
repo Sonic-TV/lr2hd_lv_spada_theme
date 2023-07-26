@@ -19,6 +19,10 @@
 
 #CUSTOMFILE,Title Font,LR2files\Theme\IIDX21 SPADA\EXfont\Title\*,title,
 
+#CUSTOMFILE,Bar font,LR2files\Theme\IIDX21 SPADA\EXfont\Bar\*,bar,
+
+#CUSTOMOPTION,Compatibility bar font position,957,Spada,Compatibility,//When font position is cursed
+
 #CUSTOMOPTION,Subtitle,930,ON,OFF,,,,
 
 //#CUSTOMOPTION,è⁄ç◊èÓïÒ,950,NORMAL,SIMPLE,CSïó,
